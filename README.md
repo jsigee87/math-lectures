@@ -35,6 +35,20 @@ When finished with the repository or environment, you can deactivate it with the
 $ 
 ```
 
+## Opening the Notebook
+
+With your environment activated, you can run 
+
+```shell
+jupyter notebook
+```
+
+and it will launch in your browser. If not, it should give you a link to copy and paste into the browser. Then you can navigate any folders underneath the directory you ran your command and open the notebook.
+
+Note that the notebook auto-saves, but you should still explicitly save it before exiting.
+
+The notebook also suspends the interpreter between code blocks and keeps variables in scope much longer than you may be used to. If you have any weird issues, just restart and re-run the notebook.
+
 ## Troubleshooting
 
 Problems with MatPlotLib on Mac OS are common and can have several different solutions. I am happy to help troubleshoot. 
